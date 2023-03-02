@@ -1,0 +1,466 @@
+@charset "utf-8";
+@import url("bootstrap.css");
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    display: table;
+}
+
+body{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .fixed-top{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 6%;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header .fixed-top .back{
+    color: white;
+}
+
+header .logo{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 300%;
+    font-weight: 600;
+    color: white;
+    margin-right: auto;
+}
+
+header .logo:hover{
+    color: white;
+}
+
+.gnav{
+    float: right;
+    width: 30%;
+    margin-top: 2.5%;
+}
+
+.gnav li{
+    float: left;
+    font-size: 130%;
+    margin-right: 10%;
+    display: block;
+}
+
+body .fixed-top .gnav li a{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: white;
+}
+
+body .fixed-top .gnav li a:hover{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer p{
+    color: gray;
+}
+
+footer a{
+    color: grey;
+    margin-right: 20px;
+}
+
+footer a:hover{
+    color: grey;
+}
+
+#wrap .content{
+    clear: both;
+    margin-top: 150px;
+    padding: 0;
+}
+
+.column1{
+    border: 3px outset;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 5% 5% 5%;
+}
+
+.subtitle{
+    padding-top: 2%;
+    font-size: 250%;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.list{
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.list li{
+    width: auto;
+    margin: 3%;
+    border: 3px outset;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.menu{
+    top: 0px;
+    left: 0px;
+    height: 50vh;
+
+    /* 縦方向のスクロールバーを表示 */
+    overflow-y: scroll;
+
+    /* IE などのスクロールバーの色設定 */
+    scrollbar-face-color: #999;
+    scrollbar-track-color: #eee;
+
+    /* スマホ用の慣性スクロール */
+    -webkit-overflow-scrolling: touch;
+}
+
+.sear{
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-bottom: medium solid #DDDDDD;
+    
+}
+
+.search:focus{
+    outline: none;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+.sear label{
+    margin-top: 1%;
+    float: right;
+}
+
+.sub{
+    margin: 3% 0;
+    width: 10%;
+    padding: 0.3% 0;
+    border: none;
+    border-style: outset;
+    border-color: #f857a6;
+    border-radius: 5px;
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+.sub:focus{
+    border: none;
+    outline: none;
+}
+
+.column2{
+    text-align: center;
+}
+
+.column2 .menu{
+    top: 0px;
+    left: 0px;
+    height: 60vh;
+    margin-top: 20px;
+
+    /* 縦方向のスクロールバーを表示 */
+    overflow-y: scroll;
+
+    /* IE などのスクロールバーの色設定 */
+    scrollbar-face-color: #999;
+    scrollbar-track-color: #eee;
+
+    /* スマホ用の慣性スクロール */
+    -webkit-overflow-scrolling: touch;
+}
+
+.column3{
+    border: 3px outset;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 30% 5% 5% 0;
+    padding-bottom: 2%;
+    padding-right: 43px;
+    background-color: white;
+}
+
+.login{
+    width: auto;
+    height: auto;
+    list-style: none;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.login li{
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.column3 a{
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.backg{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/top_page.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.backg::before{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+.backg .box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.comm{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: left;
+    color: white;
+}
+
+.comm .title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.comm p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.column1 .register{
+    list-style: none;
+}
+
+.column1 li{
+    width: auto;
+    height: auto;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+.column1 li .ra{
+    width: 8%;   
+}
+
+.column1 li .no{
+    width: 30%;
+}
+
+.inlink{
+    position: relative;
+}
+
+.inlink a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inlink a:hover{
+    opacity: 0.7;
+    background-color: white;
+}
+
+.icon{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-style: outset;
+    border-color: #18284869;
+}
+
+.column1 .pro{
+    font-size: 150%;
+    padding: 10%;
+}
+
+.column1 .pro span{
+    border-bottom: solid;
+    border-color: #18284869;
+    border-width: 3px;
+}
+
+.column1 .pic{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-style: outset;
+}
+
+.txt{
+    padding: 2%;
+    border: solid;
+    text-align: left;
+    border-style: outset;
+    border-width: 3px;
+}
+
+
+.pronav{
+    list-style: none;
+    float: right;
+    width: 30%;
+    padding-top: 3%;
+    margin: 3% 3% 0 0;
+}
+
+.pronav li{
+    float: left;
+    margin-right: 10%;
+    font-size: 200%;
+}
+.pronav .star{
+    color: white;
+    background-color:rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.pronav .star p{
+    font-size: 130%;
+    -webkit-text-stroke: 1px #000;
+}
+
+.pronav li .wait{
+    margin-top: 10%;
+}
+
+.dm{
+    color: white;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.dm p{
+    font-size: 130%;
+    -webkit-text-stroke: 1px #000;
+}
+
+.hid{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+.is-hidden{
+    display: none;
+}
+
+.talknav{
+    width: 50%;
+}
+
+.talknav ul{
+    list-style: none;
+}
+
+.talknav ul li{
+    float: left;
+}
+
+.talknav .star{
+    margin-top: 20%;
+    margin-left: 20%;
+    color: white;
+    background-color:rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.talknav .star p{
+    font-size: 200%;
+
+    -webkit-text-stroke: 1px #000;
+}
+
+.aut{
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    padding:0;
+    width: 20%;
+    height: 90px;
+    border-style: outset;
+    border-color: #f857a6;
+    border-radius: 5px;
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+}
+
+.aut:focus{
+    border: none;
+    outline: none;
+}
+
+.aut p{
+    margin: auto 0;
+    font-size: 180%;
+    color: white;
+    font-weight: 400;
+}
